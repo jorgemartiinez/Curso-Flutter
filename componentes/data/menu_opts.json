@@ -1,0 +1,60 @@
+{
+    "nombreApp": "Componentes",
+    "rutas": [
+        {
+            "ruta": "alert",
+            "icon": "add_alert",
+            "texto": "Alertas"
+        },
+        {
+            "ruta": "avatar",
+            "icon": "accessibility",
+            "texto": "Avatars"
+        },
+        {
+            "ruta": "card",
+            "icon": "folder_open",
+            "texto": "Cards - Tarjetas"
+        },
+        {
+            "ruta": "animatedContainer",
+            "icon": "donut_large",
+            "texto": "Animated Container"
+        },
+        {
+            "ruta": "inputs",
+            "icon": "input",
+            "texto": "Inputs"
+        },
+        {
+            "ruta": "sliders",
+            "icon": "tune",
+            "texto": "Sliders"
+        },
+        {
+            "ruta": "list",
+            "icon": "list",
+            "texto": "Listas y Scroll"
+        },
+        {
+            "ruta": "safeArea",
+            "icon": "settings_overscan",
+            "texto": "Safe Area"
+        },
+        {
+            "ruta": "expanded",
+            "icon": "expand_more",
+            "texto": "Expanded"
+        },
+        {
+            "ruta": "wrap",
+            "icon": "wrap_text",
+            "texto": "Wrap"
+        },
+        {
+            "ruta": "opacity",
+            "icon": "opacity",
+            "texto": "Opacity y Animated Opacity"
+        }
+    ]
+}
