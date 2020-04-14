@@ -6,6 +6,7 @@ import 'package:qrreaderapp/src/bloc/scan_bloc.dart';
 import 'package:qrreaderapp/src/models/scan_model.dart';
 import 'package:qrreaderapp/src/pages/direcciones_page.dart';
 import 'package:qrreaderapp/src/pages/mapas_page.dart';
+import 'package:qrreaderapp/src/utils/utils.dart' as utils;
 
 class HomePage extends StatefulWidget {
   @override
@@ -33,13 +34,13 @@ class _HomePageState extends State<HomePage> {
           .centerDocked, // boton al centro en la barra
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.filter_center_focus),
-        onPressed: _scanQR,
+        onPressed: () => _scanQR(context),
         backgroundColor: Theme.of(context).primaryColor,
       ),
     );
   }
 
-  Future<String> _scanQR() async {
+  Future<String> _scanQR(BuildContext context) async {
     String futureString = 'https://www.marca.com';
     // www.marca.com
 
@@ -54,6 +55,10 @@ class _HomePageState extends State<HomePage> {
     if (futureString != null) {
       final scan = ScanModel(valor: futureString);
       scansBloc.agregarScan(scan);
+      final scan2 = ScanModel(valor: 'geo:40.724233047051705,-74.00731459101564');
+      scansBloc.agregarScan(scan2);
+
+      utils.abrirScanNavegador(context, scan);
     }
   }
 

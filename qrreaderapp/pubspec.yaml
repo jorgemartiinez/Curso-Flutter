@@ -24,7 +24,9 @@ dependencies:
   cupertino_icons: ^0.1.2
   barcode_scan: ^2.0.2  # Scanear códigos QR
   sqflite: ^1.3.0       # Base de datos SQLite
-  path_provider: ^1.6.5 # Obtener ruta DB del dispositivo dinámicamente
+  path_provider:  # Obtener ruta DB del dispositivo dinámicamente
+  url_launcher: ^5.4.2  # Abrir URL en el navegador, abrir teléfono o incluso email
+  flutter_map: ^0.9.0
 
 dev_dependencies:
   flutter_test:
