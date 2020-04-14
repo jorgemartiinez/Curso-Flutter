@@ -1,16 +1,5 @@
-# peliculas
+# Aplicación de Películas
 
-A new Flutter project.
+Aplicación de películas con Flutter en la que se hace uso de llamadas HTTP y se introduce al uso del patrón Bloc y los Streams.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+También se utiliza un plugin muy interesante para hacer Swipes de tarjetas. [Link](https://pub.dev/packages/flutter_swiper)
